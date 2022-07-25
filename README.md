@@ -1,6 +1,6 @@
 Example:
 
->>> import smart_gadget
+  
 demo_man()
 Searching for device with MAC address b'de15e4b1d667'...
 Scan done.
@@ -14,5 +14,4 @@ Battery Level: (89,)%
 Temperature: (24.06,)°C
 Humidity: (32.61,)%
 Disconnect failed!
-  
   
