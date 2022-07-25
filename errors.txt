@@ -1,0 +1,43 @@
+Code is not stable. These are errors that can occur.
+
+Searching for device with MAC address b'de15e4b1d667'...
+Scan done.
+Sensor 'Smart Humigadget' found.
+RSSI: -69dbB
+Trying to connect to device with MAC address b'de15e4b1d667'...
+gap_connect() =  True
+Connection failed!
+
+
+Searching for device with MAC address b'de15e4b1d667'...
+Scan done.
+Sensor 'Smart Humigadget' found.
+RSSI: -71dbB
+Trying to connect to device with MAC address b'de15e4b1d667'...
+gap_connect() =  True
+addr_type: 1; addr: <memoryview>; conn_handle: 0
+Connected
+lld_pdu_get_tx_flush_nb HCI packet count mismatch (1, 2)
+Reading battery level failed!
+Reading temperature sensor data failed!
+Reading humidity sensor data failed!
+Disconnected
+
+
+Searching for device with MAC address b'de15e4b1d667'...
+Scan done.
+Sensor 'None' found.
+RSSI: -75dbB
+Trying to connect to device with MAC address b'de15e4b1d667'...
+gap_connect() =  True
+addr_type: 1; addr: <memoryview>; conn_handle: 0
+Connected
+Battery Level: (100,)%
+Traceback (most recent call last):
+  File "smart_gadget.py", line 443, in _irq
+  File "smart_gadget.py", line 686, in read_temp_sensor_done
+ValueError: buffer too small
+Reading temperature sensor data failed!
+Humidity: (31.59,)%
+Disconnect failed!
+
