@@ -1,6 +1,6 @@
 Example:
 
->>> import smart_gadget
+import smart_gadget
   
 demo_man()
 
